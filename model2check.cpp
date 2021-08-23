@@ -10,7 +10,7 @@ int main()
     myfile.open("model2.dmp");
     std::string mystring;
 
-    // provide some context
+    // provide some content
     if (myfile.is_open())
     {
         for (int i = 0; i < 20; i++)
